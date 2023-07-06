@@ -2,19 +2,18 @@
   "project":
   [
     {
-      "name": "JBO - Jumbo",
+      "name": "FRB - Firerobo",
       "settings":
       {
         "fps": "24",
-        "resolution_width": "2048",
-        "resolution_height": "868",
-        "asset_prefix": "O:/jbo_assets",
+        "resolution_width": "1280",
+        "resolution_height": "720",
+        "asset_prefix": "H:/fireRobo/ast",
         "anim_prefix": "O:/jbo_assets"
       },
       "software":
       [
-        "blender32_jbo",
-        "maya2018_jbo"
+        "maya2018_frb"
       ]
     },
     {
