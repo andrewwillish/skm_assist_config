@@ -4,16 +4,34 @@
 set mypath=%~dp0
 
 set SOURCE_PATH=%scriptRootPath%;
-
 set PYTHONPATH=^
 %PYTHONPATH%;^
 %scriptRootPath%\repo\GEN;^
-%scriptRootPath%\JBO\REGIS_shot_manager_JBO;^
-%scriptRootPath%\JBO\REGIS_previewer_JBO;^
-%scriptRootPath%\JBO\TOOLS_stepSnap_JBO;^
-%scriptRootPath%\JBO\TOOLS_camera_noise_applicator;^
-%scriptRootPath%\common_lib;^
-C:\hwqworkspace\picker_collection;
+%scriptRootPath%\repo\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
+
+
+set MAYA_SCRIPT_PATH=^
+%MAYA_SCRIPT_PATH%;
+
+set MAYA_PLUG_IN_PATH=^
+%MAYA_PLUG_IN_PATH%;^
+%scriptRootPath%\repo\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
+%scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
+
+set MAYA_MODULE_PATH=^
+%MAYA_MODULE_PATH%;
+
+set QT_PLUGIN_PATH="C:\Program Files\Autodesk\Maya2022\plugins\platforms"
+
+set PRJCODE=SR-LSG;
+set PRJNAME=Leo;
+set AUTOLOAD_PLUGIN=%scriptRootPath%\repo\SR-LSG\autoLoad.inf
+set BLACKLIST_PLUGIN=%scriptRootPath%\repo\SR-LSG\pluginBlacklist.inf
 
 set LIC_CHECKER_PATH=%scriptRootPath%\common_lib\SEER_license_checker_desktop.exe
 
