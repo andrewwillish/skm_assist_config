@@ -26,12 +26,12 @@ set MAYA_PLUG_IN_PATH=^
 set MAYA_MODULE_PATH=^
 %MAYA_MODULE_PATH%;
 
-set QT_PLUGIN_PATH="C:\Program Files\Autodesk\Maya2022\plugins\platforms"
+::set QT_PLUGIN_PATH="C:\Program Files\Autodesk\Maya2022\plugins\platforms"
 
-set PRJCODE=SR-LSG;
-set PRJNAME=Leo;
-set AUTOLOAD_PLUGIN=%scriptRootPath%\repo\SR-LSG\autoLoad.inf
-set BLACKLIST_PLUGIN=%scriptRootPath%\repo\SR-LSG\pluginBlacklist.inf
+set PRJCODE=FRB;
+set PRJNAME=Firerobo;
+set AUTOLOAD_PLUGIN=%scriptRootPath%\repo\FRB\autoLoad.inf
+set BLACKLIST_PLUGIN=%scriptRootPath%\repo\FRB\pluginBlacklist.inf
 
 set LIC_CHECKER_PATH=%scriptRootPath%\common_lib\SEER_license_checker_desktop.exe
 
