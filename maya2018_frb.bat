@@ -37,5 +37,7 @@ set LIC_CHECKER_PATH=%scriptRootPath%\common_lib\SEER_license_checker_desktop.ex
 
 set QT_PLUGIN_PATH=%scriptRootPath%\common_lib\platforms
 
+set ASSET_LIB=H:/fireRobo/ast
+
 ::Start
 "C:\Program Files\Autodesk\Maya2018\bin\maya.exe"
