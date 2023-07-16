@@ -35,6 +35,7 @@ set PRJCODE=FRB;
 set PRJNAME=Firerobo;
 set AUTOLOAD_PLUGIN=%scriptRootPath%\FRB\autoLoad.inf
 set BLACKLIST_PLUGIN=%scriptRootPath%\FRB\pluginBlacklist.inf
+set FPS=film
 
 set LIC_CHECKER_PATH=%scriptRootPath%\common_lib\SEER_license_checker_desktop.exe
 
