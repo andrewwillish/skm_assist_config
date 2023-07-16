@@ -7,7 +7,7 @@ set SOURCE_PATH=%scriptRootPath%;
 set PYTHONPATH=^
 %PYTHONPATH%;^
 %scriptRootPath%\GEN;^
-%scriptRootPath%\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\GEN\stepSnap_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
@@ -19,7 +19,7 @@ set MAYA_SCRIPT_PATH=^
 
 set MAYA_PLUG_IN_PATH=^
 %MAYA_PLUG_IN_PATH%;^
-%scriptRootPath%\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\GEN\stepSnap_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
