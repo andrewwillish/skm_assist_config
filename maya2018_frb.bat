@@ -6,11 +6,12 @@ set mypath=%~dp0
 set SOURCE_PATH=%scriptRootPath%;
 set PYTHONPATH=^
 %PYTHONPATH%;^
-%scriptRootPath%\repo\GEN;^
-%scriptRootPath%\repo\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\GEN;^
+%scriptRootPath%\GEN\TOOLS\stepSnap_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
+%scriptRootPath%\FRB\REG_assetManager_FRB;^
 
 
 set MAYA_SCRIPT_PATH=^
@@ -18,10 +19,12 @@ set MAYA_SCRIPT_PATH=^
 
 set MAYA_PLUG_IN_PATH=^
 %MAYA_PLUG_IN_PATH%;^
-%scriptRootPath%\repo\GEN\TOOLS\stepSnap_GEN;^
+%scriptRootPath%\GEN\TOOLS\stepSnap_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\crossControl_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
+%scriptRootPath%\FRB\REG_assetManager_FRB;^
+
 
 set MAYA_MODULE_PATH=^
 %MAYA_MODULE_PATH%;
@@ -30,8 +33,8 @@ set MAYA_MODULE_PATH=^
 
 set PRJCODE=FRB;
 set PRJNAME=Firerobo;
-set AUTOLOAD_PLUGIN=%scriptRootPath%\repo\FRB\autoLoad.inf
-set BLACKLIST_PLUGIN=%scriptRootPath%\repo\FRB\pluginBlacklist.inf
+set AUTOLOAD_PLUGIN=%scriptRootPath%\FRB\autoLoad.inf
+set BLACKLIST_PLUGIN=%scriptRootPath%\FRB\pluginBlacklist.inf
 
 set LIC_CHECKER_PATH=%scriptRootPath%\common_lib\SEER_license_checker_desktop.exe
 
