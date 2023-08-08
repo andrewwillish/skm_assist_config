@@ -12,6 +12,7 @@ set PYTHONPATH=^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
 %scriptRootPath%\FRB\REG_assetManager_FRB;^
+%scriptRootPath%\FRB\REG_shotManager_FRB;^
 
 
 set MAYA_SCRIPT_PATH=^
@@ -24,6 +25,7 @@ set MAYA_PLUG_IN_PATH=^
 %scriptRootPath%\repo\GEN\TOOLS\TweenMachine_GEN;^
 %scriptRootPath%\repo\GEN\TOOLS\selectInCam_GEN;^
 %scriptRootPath%\FRB\REG_assetManager_FRB;^
+%scriptRootPath%\FRB\REG_shotManager_FRB;^
 
 
 set MAYA_MODULE_PATH=^
